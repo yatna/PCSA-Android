@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4CAF50"
+    android:background="@color/intro4_background"
     android:layout_weight="10"
     android:id="@+id/main">
 
@@ -14,7 +14,7 @@
         android:paddingLeft="20dp"
         android:layout_weight="3"
         android:fontFamily="sans-serif-thin"
-        android:textColor="#ffffff"
+        android:textColor="@color/intro_text_color"
         android:paddingRight="32dp"
         android:textSize="@dimen/text_large"
         android:text="The message will be sent to 6 Comrades for immediate intervention"/>
@@ -42,7 +42,7 @@
         android:layout_weight="3"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="#ffffff"
+        android:textColor="@color/intro_text_color"
         android:paddingLeft="64dp"
         android:paddingRight="64dp"
         android:textSize="@dimen/text_large"

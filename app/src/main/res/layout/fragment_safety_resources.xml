@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textSize="40sp"
-                android:textColor="#fff"
+                android:textColor="@color/fragment_safety_resource_text_color"
                 android:text="Helping"
                 />
             <TextView
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textSize="@dimen/text_normal"
-                android:textColor="#fff"
+                android:textColor="@color/fragment_safety_resource_text_color"
                 android:text="Friends and community members"
                 />
 
