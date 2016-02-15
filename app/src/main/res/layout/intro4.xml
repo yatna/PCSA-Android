@@ -8,20 +8,20 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/zero"
         android:layout_gravity="center"
         android:gravity="center"
-        android:paddingLeft="20dp"
+        android:paddingLeft="@dimen/twenty"
         android:layout_weight="@integer/intro4_textView_weight"
         android:fontFamily="sans-serif-thin"
         android:textColor="@color/intro_text_color"
-        android:paddingRight="32dp"
+        android:paddingRight="@dimen/intro_padding"
         android:textSize="@dimen/text_large"
         android:text="The message will be sent to 6 Comrades for immediate intervention"/>
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/zero"
         android:orientation="vertical"
         android:gravity="center"
         android:layout_weight="@integer/intro4_linear_layout_weight"
@@ -31,20 +31,20 @@
             android:layout_width="183dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
+            android:paddingLeft="@dimen/intro_padding_16"
+            android:paddingRight="@dimen/intro_padding_16"
             android:layout_weight="0.61"
             android:src="@mipmap/ic_thumb"/>
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/zero"
         android:layout_weight="@integer/intro4_textView_weight"
         android:layout_gravity="center"
         android:gravity="center"
         android:textColor="@color/intro_text_color"
-        android:paddingLeft="64dp"
-        android:paddingRight="64dp"
+        android:paddingLeft="@dimen/intro_padding_64"
+        android:paddingRight="@dimen/intro_padding_64"
         android:textSize="@dimen/text_large"
         android:textStyle="bold"
         android:fontFamily="sans-serif-thin"
@@ -52,5 +52,5 @@
         android:text="Done"/>
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="64dp" />
+        android:layout_height="@dimen/intro_padding_64" />
 </LinearLayout>
