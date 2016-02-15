@@ -33,7 +33,7 @@
             android:textColor="@color/activity_trustee_edittext_color"
             android:inputType="number"
             android:hint="Comrade 1"
-            android:ems="10"
+            android:ems="@integer/ems"
             android:paddingTop="15px"/>
         <EditText
             android:id="@+id/comrade2EditText"
@@ -48,7 +48,7 @@
             android:layout_gravity="center"
             android:textColor="@color/activity_trustee_edittext_color"
             android:hint="Comrade 2"
-            android:ems="10"
+            android:ems="@integer/ems"
             android:paddingTop="15px"/>
 
         <EditText
@@ -64,7 +64,7 @@
             android:layout_gravity="center"
             android:textColor="@color/activity_trustee_edittext_color"
             android:hint="Comrade 3"
-            android:ems="10"
+            android:ems="@integer/ems"
             android:paddingTop="15px"/>
 
         <EditText
@@ -80,7 +80,7 @@
             android:layout_gravity="center"
             android:textColor="@color/activity_trustee_edittext_color"
             android:hint="Comrade 4"
-            android:ems="10"
+            android:ems="@integer/ems"
             android:paddingTop="15px"/>
 
         <EditText
@@ -96,7 +96,7 @@
             android:layout_gravity="center"
             android:textColor="@color/activity_trustee_edittext_color"
             android:hint="Comrade 5"
-            android:ems="10"
+            android:ems="@integer/ems"
             android:paddingTop="15px"/>
 
         <EditText
@@ -112,7 +112,7 @@
             android:inputType="number"
             android:textColor="@color/activity_trustee_edittext_color"
             android:hint="Comrade 6"
-            android:ems="10"
+            android:ems="@integer/ems"
             android:paddingTop="15px"/>
         <Button
             android:id="@+id/okButton"

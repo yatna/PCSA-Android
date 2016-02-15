@@ -16,7 +16,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:background="@drawable/bg_btn_arrow"
-        android:rotation="90"
+        android:rotation="@integer/rotation"
         android:layout_margin="15dp"
         android:layout_gravity="center"
         android:gravity="center"/>
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/abc_text_size_small_material"
         android:textColor="@color/primary_text_default_material_dark"
-        android:maxLines="0"
+        android:maxLines="@integer/zero"
         android:visibility="invisible"
         android:background="@drawable/bg_textview_faq_rounded_lower"
         android:padding="10dp"/>
