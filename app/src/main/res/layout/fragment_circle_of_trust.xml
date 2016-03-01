@@ -23,15 +23,14 @@
             />
         <ImageButton
             android:id="@+id/editButton"
-            android:layout_width="@dimen/fifty"
-            android:layout_height="@dimen/fifty"
+            android:layout_width="@dimen/circle_of_trust_width"
+            android:layout_height="@dimen/circle_of_trust_height"
             android:textColor="@color/fragment_of_trust_text_color"
             android:src="@mipmap/ic_edit_button"
             android:textSize="@dimen/text_normal"
             android:background="@drawable/btn_rounded_rectangle"
             android:text="Com 4"
-
-            android:layout_marginRight="@dimen/ten"/>
+            android:layout_marginRight="@dimen/circle_of_trust_marginRight"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -39,26 +38,26 @@
             android:gravity="center_horizontal">
             <ImageButton
                 android:id="@+id/com1Button"
-                android:layout_width="@dimen/fifty"
-                android:layout_height="@dimen/fifty"
+                android:layout_width="@dimen/circle_of_trust_width"
+                android:layout_height="@dimen/circle_of_trust_height"
                 android:textColor="@color/fragment_of_trust_text_color"
                 android:textSize="@dimen/text_normal"
                 android:background="@drawable/btn_rounded_rectangle"
                 android:text="CM 1"
                 android:src="@mipmap/ic_comrade"
-                android:layout_marginTop="@dimen/fifty"
+                android:layout_marginTop="@dimen/circle_of_trust_width"
                 android:layout_marginLeft="@dimen/zero"/>
             <ImageButton
                 android:id="@+id/com2Button"
-                android:layout_width="@dimen/fifty"
-                android:layout_height="@dimen/fifty"
+                android:layout_width="@dimen/circle_of_trust_width"
+                android:layout_height="@dimen/circle_of_trust_height"
                 android:textColor="@color/fragment_of_trust_text_color"
                 android:src="@mipmap/ic_comrade"
                 android:textSize="@dimen/text_normal"
                 android:background="@drawable/btn_rounded_rectangle"
                 android:text="CM 2"
-                android:layout_marginTop="@dimen/fifty"
-                android:layout_marginLeft="@dimen/seventy"/>
+                android:layout_marginTop="@dimen/circle_of_trust_width"
+                android:layout_marginLeft="@dimen/circle_of_trust_marginLeft"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -68,36 +67,36 @@
             android:gravity="center_horizontal">
             <ImageButton
                 android:id="@+id/com6Button"
-                android:layout_width="@dimen/fifty"
-                android:layout_height="@dimen/fifty"
+                android:layout_width="@dimen/circle_of_trust_width"
+                android:layout_height="@dimen/circle_of_trust_height"
                 android:textColor="@color/fragment_of_trust_text_color"
                 android:src="@mipmap/ic_comrade"
                 android:textSize="@dimen/text_normal"
                 android:background="@drawable/btn_rounded_rectangle"
                 android:text="Com 6"
-                android:layout_marginTop="@dimen/fifty"
+                android:layout_marginTop="@dimen/circle_of_trust_width"
                />
 
             <ImageButton
                 android:id="@+id/requestButton"
-                android:layout_width="@dimen/eighty"
-                android:layout_height="@dimen/eighty"
+                android:layout_width="@dimen/circle_of_trust_image_width"
+                android:layout_height="@dimen/circle_of_trust_image_height"
                 android:textColor="@color/fragment_of_trust_text_color"
                 android:background="@mipmap/ic_help_me"
                 android:text="Request Help"
-                android:layout_marginTop="@dimen/fifty"
-                android:layout_marginLeft="@dimen/forty"/>
+                android:layout_marginTop="@dimen/circle_of_trust_width"
+                android:layout_marginLeft="@dimen/circle_of_trust_marginLeft_40"/>
             <ImageButton
                 android:id="@+id/com3Button"
-                android:layout_width="@dimen/fifty"
-                android:layout_height="@dimen/fifty"
+                android:layout_width="@dimen/circle_of_trust_width"
+                android:layout_height="@dimen/circle_of_trust_height"
                 android:textColor="@color/fragment_of_trust_text_color"
                 android:src="@mipmap/ic_comrade"
                 android:textSize="@dimen/text_normal"
                 android:background="@drawable/btn_rounded_rectangle"
                 android:text="Com 3"
-                android:layout_marginTop="@dimen/fifty"
-                android:layout_marginLeft="@dimen/forty"/>
+                android:layout_marginTop="@dimen/circle_of_trust_width"
+                android:layout_marginLeft="@dimen/circle_of_trust_marginLeft_40"/>
         </LinearLayout>
 
         <LinearLayout
@@ -107,25 +106,25 @@
             android:gravity="center_horizontal">
             <ImageButton
                 android:id="@+id/com5Button"
-                android:layout_width="@dimen/fifty"
-                android:layout_height="@dimen/fifty"
+                android:layout_width="@dimen/circle_of_trust_width"
+                android:layout_height="@dimen/circle_of_trust_height"
                 android:textColor="@color/fragment_of_trust_text_color"
                 android:src="@mipmap/ic_comrade"
                 android:textSize="@dimen/text_normal"
                 android:background="@drawable/btn_rounded_rectangle"
                 android:text="Com 5"
-                android:layout_marginTop="@dimen/fifty" />
+                android:layout_marginTop="@dimen/circle_of_trust_width" />
             <ImageButton
                 android:id="@+id/com4Button"
-                android:layout_width="@dimen/fifty"
-                android:layout_height="@dimen/fifty"
+                android:layout_width="@dimen/circle_of_trust_width"
+                android:layout_height="@dimen/circle_of_trust_height"
                 android:textColor="@color/fragment_of_trust_text_color"
                 android:src="@mipmap/ic_comrade"
                 android:textSize="@dimen/text_normal"
                 android:background="@drawable/btn_rounded_rectangle"
                 android:text="Com 4"
-                android:layout_marginTop="@dimen/fifty"
-                android:layout_marginLeft="@dimen/seventy"/>
+                android:layout_marginTop="@dimen/circle_of_trust_width"
+                android:layout_marginLeft="@dimen/circle_of_trust_marginLeft"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
